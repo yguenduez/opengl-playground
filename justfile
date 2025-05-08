@@ -5,3 +5,6 @@ build:
 run target:
   ./build/{{target}}
 
+clean:
+  rm -rf build/
+
