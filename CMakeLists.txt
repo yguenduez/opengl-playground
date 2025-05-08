@@ -20,3 +20,6 @@ FetchContent_MakeAvailable(glfw)
 
 add_executable(open_gl_starter src/bin/open_gl_starter.cpp)
 target_link_libraries(open_gl_starter PRIVATE OpenGL::GL glfw)
+
+add_executable(moving_triangles src/bin/moving_triangles.cpp)
+target_link_libraries(moving_triangles PRIVATE OpenGL::GL glfw)
